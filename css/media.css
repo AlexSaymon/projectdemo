@@ -1,0 +1,13 @@
+@media screen and (min-width: 375px) {
+  .container {
+    min-width: 335px;
+    width: 100%;
+  }
+  .advantages-list {
+    min-width: 335px;
+    min-height: 635px;
+  }
+  .advantages-number::after {
+    width: 295px;
+  }
+}
