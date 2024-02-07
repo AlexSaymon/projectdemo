@@ -34,6 +34,19 @@ body {
   margin-bottom: 40px;
 }
 
+.advantages-item:nth-child(1) {
+  min-width: 238px;
+}
+
+.advantages-item:nth-child(2) {
+  min-width: 199px;
+}
+
+.advantages-item:nth-child(3),
+.advantages-item:nth-child(4) {
+  min-width: 292px;
+}
+
 .advantages-number::after {
   content: "";
   display: block;
